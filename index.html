@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Birthdays by Month</title>
+<style>
+  :root{
+    --ink:#0b1320;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --max:1100px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:#ffffff; line-height:1.5;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:18px 16px;}
+  h1{margin:0 0 18px; font-size:22px;}
+  .grid{display:grid; grid-template-columns:repeat(1,minmax(0,1fr)); gap:14px;}
+  @media (min-width:760px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  @media (min-width:1060px){ .grid{grid-template-columns:repeat(3,minmax(0,1fr));} }
+  .card{border:1px solid var(--line); border-radius:14px; overflow:hidden; background:#fff;}
+  .card-h{background:#fafafa; border-bottom:1px solid var(--line); padding:10px 12px; font-weight:600; font-size:14px; display:flex; justify-content:space-between;}
+  .count{color:var(--muted); font-weight:500; font-size:12px;}
+  table{width:100%; border-collapse:collapse;}
+  thead th{text-align:left; font-size:12px; color:var(--muted); padding:8px 10px; border-bottom:1px solid var(--line);}
+  tbody td{padding:8px 10px; border-bottom:1px solid #f3f4f6; font-size:14px;}
+  tbody tr:last-child td{border-bottom:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Birthdays by Month</h1>
+<div class="grid">
+
+<section class="card">
+  <div class="card-h"><div>January</div><div class="count">10</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Linden Kayes</td></tr>
+      <tr><td>Hamzah Rais</td></tr>
+      <tr><td>Shruthi Rajesh</td></tr>
+      <tr><td>Anna Xiao</td></tr>
+      <tr><td>Josh Abraham</td></tr>
+      <tr><td>Anshi Chowdhory</td></tr>
+      <tr><td>Saisha Shinde</td></tr>
+      <tr><td>Jason Zhang</td></tr>
+      <tr><td>Raayan Krishnama</td></tr>
+      <tr><td>Faith Macherla</td></tr>
+      <tr><td>Joanne Grace Philip</td></tr>
+      <tr><td>John Steele</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>February</div><div class="count">13</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Katherine Budwell</td></tr>
+      <tr><td>Shruti Dere</td></tr>
+      <tr><td>Nicholas Hawkins</td></tr>
+      <tr><td>Jason Lin</td></tr>
+      <tr><td>Sami Mohmedzain</td></tr>
+      <tr><td>Satya Shanmugaselvam</td></tr>
+      <tr><td>Shreeya Shanmugaselvam</td></tr>
+      <tr><td>Josh Abraham</td></tr>
+      <tr><td>Kerti Elamaran</td></tr>
+      <tr><td>Dharmika Mutyala</td></tr>
+      <tr><td>Aakash Parab</td></tr>
+      <tr><td>Thouti Sri Harshika</td></tr>
+      <tr><td>Kevin Fung</td></tr>
+      <tr><td>Zayan Sikder</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>March</div><div class="count">13</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Faribah Nuha</td></tr>
+      <tr><td>Bhavika Suryawanshi</td></tr>
+      <tr><td>Renesh Thaipulley</td></tr>
+      <tr><td>Ibrahim Al Naqshbandi</td></tr>
+      <tr><td>Patel Yagna</td></tr>
+      <tr><td>Julian Ng</td></tr>
+      <tr><td>Anish Ranga</td></tr>
+      <tr><td>Padmini Padhi</td></tr>
+      <tr><td>Hridai Suresh</td></tr>
+      <tr><td>Ari Gnanasekaran</td></tr>
+      <tr><td>Rithik Natarajan</td></tr>
+      <tr><td>Denis Menevseoglu</td></tr>
+      <tr><td>Luke Scott</td></tr>
+      <tr><td>Elliot Wisdom</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>April</div><div class="count">16</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Amira Iqbal</td></tr>
+      <tr><td>Avi Shah</td></tr>
+      <tr><td>Oba O'Brien</td></tr>
+      <tr><td>Badreldin Awadalla</td></tr>
+      <tr><td>Paulo Basola</td></tr>
+      <tr><td>Lawrence Morgan</td></tr>
+      <tr><td>Arnav Shah</td></tr>
+      <tr><td>Neel Shah</td></tr>
+      <tr><td>Cynthia Wu</td></tr>
+      <tr><td>Waylan O'Brien</td></tr>
+      <tr><td>Jatin Papasani</td></tr>
+      <tr><td>Yunay Vaddi</td></tr>
+      <tr><td>Siyam Samson</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>May</div><div class="count">17</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Nischal Alladi</td></tr>
+      <tr><td>Kartikeya Jain</td></tr>
+      <tr><td>Aarush Kumar</td></tr>
+      <tr><td>Emi Brinegar</td></tr>
+      <tr><td>Josh Abraham</td></tr>
+      <tr><td>Harshith Kothapalli</td></tr>
+      <tr><td>Tavaras Williams</td></tr>
+      <tr><td>Divesh Adusumalli</td></tr>
+      <tr><td>Mariana Arguello Urbina</td></tr>
+      <tr><td>Anand Moukshith Guntuboyina</td></tr>
+      <tr><td>Siddhant Naavaal</td></tr>
+      <tr><td>Soha Naviwala</td></tr>
+      <tr><td>Jatin Papasani</td></tr>
+      <tr><td>Yunay Vaddi</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>June</div><div class="count">14</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Aleksander Kurgan</td></tr>
+      <tr><td>Dishita Keswani</td></tr>
+      <tr><td>Ehan Maxood</td></tr>
+      <tr><td>Rayhan Mohammed</td></tr>
+      <tr><td>Julian Ng</td></tr>
+      <tr><td>Giovanni Grandini</td></tr>
+      <tr><td>Advika Mahesh</td></tr>
+      <tr><td>Caleb Tan</td></tr>
+      <tr><td>Aanya Vadlamudi</td></tr>
+      <tr><td>Alexander Fowler</td></tr>
+      <tr><td>Iman Ibrahim</td></tr>
+      <tr><td>Saifi Minwasi</td></tr>
+      <tr><td>Enoch Olubiyi</td></tr>
+      <tr><td>Alex Taylor</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>July</div><div class="count">17</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Ben Arnett</td></tr>
+      <tr><td>Declan Boyd</td></tr>
+      <tr><td>Tom Cech</td></tr>
+      <tr><td>Leo Mulder</td></tr>
+      <tr><td>Dyson Bawol</td></tr>
+      <tr><td>Anthony Cavero</td></tr>
+      <tr><td>Lakhi Kolhe</td></tr>
+      <tr><td>Advait Kulkarni</td></tr>
+      <tr><td>Peter Lee</td></tr>
+      <tr><td>Aditi Jain</td></tr>
+      <tr><td>Joshua Grover-Yannie</td></tr>
+      <tr><td>Litiya Weng</td></tr>
+      <tr><td>Giovanni Grandini</td></tr>
+      <tr><td>Grey Haddix</td></tr>
+      <tr><td>Yathaartha Suryavanshi</td></tr>
+      <tr><td>Flora Urmee</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>August</div><div class="count">14</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Jack Gardner</td></tr>
+      <tr><td>Abby Zhang</td></tr>
+      <tr><td>Rashmi Adhikari</td></tr>
+      <tr><td>Sritha Kankanala</td></tr>
+      <tr><td>Swetha Kodali</td></tr>
+      <tr><td>Ehan Maxood</td></tr>
+      <tr><td>Riley Haefner</td></tr>
+      <tr><td>Waylan O'Brien</td></tr>
+      <tr><td>Nihal Nallapareddy</td></tr>
+      <tr><td>Arianna Patel</td></tr>
+      <tr><td>Neil Singh</td></tr>
+      <tr><td>Rennie Yeh</td></tr>
+      <tr><td>Shreyas Nallaparaju</td></tr>
+      <tr><td>Nikunj Goel</td></tr>
+      <tr><td>Grant Reilly</td></tr>
+      <tr><td>Thomas Madison</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>September</div><div class="count">11</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Jay Chauhan</td></tr>
+      <tr><td>Aryan Mittal</td></tr>
+      <tr><td>Promit Banerjee</td></tr>
+      <tr><td>Padmini Padhi</td></tr>
+      <tr><td>Nidhira Palakolanu</td></tr>
+      <tr><td>Sritha Kankanala</td></tr>
+      <tr><td>Neil Velpula</td></tr>
+      <tr><td>Riyan Nayak</td></tr>
+      <tr><td>Anushri Sinha</td></tr>
+      <tr><td>Sreekar Karra</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>October</div><div class="count">17</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Aditya Banerjee</td></tr>
+      <tr><td>Zach Chilton</td></tr>
+      <tr><td>Monique McEnhimer</td></tr>
+      <tr><td>Asadullah Moghul</td></tr>
+      <tr><td>Grace O'Leary</td></tr>
+      <tr><td>Sahil Chavan</td></tr>
+      <tr><td>Tanishq Mittal</td></tr>
+      <tr><td>Tristan Ottens</td></tr>
+      <tr><td>Padmini Padhi</td></tr>
+      <tr><td>Tulasi Velga</td></tr>
+      <tr><td>Tanushree Sarda</td></tr>
+      <tr><td>David Seedah</td></tr>
+      <tr><td>Keerat Rajani</td></tr>
+      <tr><td>Leilah Washington</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>November</div><div class="count">9</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Richard John</td></tr>
+      <tr><td>Ira Alulkar</td></tr>
+      <tr><td>Amy Chen</td></tr>
+      <tr><td>Ari Gnanasekaran</td></tr>
+      <tr><td>Sriya Natarajan</td></tr>
+      <tr><td>James O'Leary</td></tr>
+      <tr><td>Hannah Mary George</td></tr>
+      <tr><td>Sibelle Zenkner</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <div class="card-h"><div>December</div><div class="count">11</div></div>
+  <table>
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+      <tr><td>Joseph Cedeno</td></tr>
+      <tr><td>Abhinav Gitta</td></tr>
+      <tr><td>Akshay Kushwaha</td></tr>
+      <tr><td>Sasha Selvaraj</td></tr>
+      <tr><td>Nikita Singh</td></tr>
+      <tr><td>Ethan Stein</td></tr>
+      <tr><td>Divesh Adusumalli</td></tr>
+      <tr><td>Madison Epps</td></tr>
+      <tr><td>Finley Miller</td></tr>
+      <tr><td>Benjamin Ludeke</td></tr>
+      <tr><td>Jesus Guajardo-Narvaez</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</div>
+</div>
+</body>
+</html>
